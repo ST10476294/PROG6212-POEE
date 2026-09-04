@@ -28,7 +28,7 @@ jobs:
             "README.md"
             "docs/ERD.png"
             "docs/api-endpoint-plan.pdf"
-            "docs/database.sql"
+            "docs/RaceDay_Schema.sql"
           )
 
           for file in "${required_files[@]}"; do
@@ -44,7 +44,7 @@ jobs:
         run: |
           files=(
             "README.md"
-            "docs/endpoint-plan.md"
+            "docs/api-endpoint-plan.pdf"
             "docs/RaceDay_Schema.sql"
           )
 
