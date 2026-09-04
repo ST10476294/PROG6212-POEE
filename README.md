@@ -145,6 +145,29 @@ The unique constraint on `EnrolmentId` ensures that an enrolment has at most
 one result.
 
 ---
+## CI/CD
+
+This project uses GitHub Actions to automatically validate the repository
+structure.
+
+The workflow checks that:
+
+- The `docs` folder exists.
+- The ERD image exists.
+- The endpoint plan exists.
+- The SQL script exists.
+- The README exists.
+- The required documentation files are not empty.
+- The ERD is a valid PNG image.
+
+The workflow file is located at:
+
+`.github/workflows/validate.yml`
+
+### Successful Build
+
+![Successful GitHub Actions Build](docs/ci-success.png)
+---
 
 ## Entity Relationships
 
@@ -170,3 +193,7 @@ Users
 Enrolments
      │
      └── 1:1 ── Results
+
+
+
+
