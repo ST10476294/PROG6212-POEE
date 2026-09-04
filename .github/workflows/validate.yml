@@ -45,7 +45,7 @@ jobs:
           files=(
             "README.md"
             "docs/endpoint-plan.md"
-            "docs/database.sql"
+            "docs/RaceDay_Schema.sql"
           )
 
           for file in "${files[@]}"; do
