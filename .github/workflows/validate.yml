@@ -27,7 +27,7 @@ jobs:
           required_files=(
             "README.md"
             "docs/ERD.png"
-            "docs/endpoint-plan.md"
+            "docs/api-endpoint-plan.pdf"
             "docs/database.sql"
           )
 
