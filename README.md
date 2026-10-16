@@ -93,7 +93,7 @@ The HTTP tests use an independent SQLite in-memory database per test. They exerc
 ## YouTube demonstration
 
 part 1 https://www.youtube.com/shorts/ibWM3m3GF6c; 
-part 2 
+part 2 [https://www.youtube.com/shorts/; ](https://youtu.be/6HNs7CuFW24?si=bb1tU_o6eJtcxD9F)
 
 
 ## AI usage disclosure
