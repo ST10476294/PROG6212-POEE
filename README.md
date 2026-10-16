@@ -69,7 +69,7 @@ Passwords must be at least 8 characters, at most 72 characters and at most 72 UT
 
 ## API overview
 
-All 19 Part 1 operations are implemented, plus logout and an organiser event-enrolment list. See [endpoint inventory and alignment](docs/PART2-ALIGNMENT.md) for exact routes and documented differences.
+All 19 Part 1 operations are implemented, plus logout and an organiser event-enrolment list.
 
 Distance belongs to categories in the approved schema; event responses include those categories and their distances. Event types use the approved `Running`, `Walking`, and `Cycling` values. Dates are treated as local event time; use consistent South African event times in the demo.
 
@@ -87,22 +87,16 @@ The HTTP tests use an independent SQLite in-memory database per test. They exerc
 
 ### CI green-build screenshot
 
-**Pending:** run the Part 2 workflow in GitHub, then save its successful run screenshot as `docs/part2-ci-success.png` and embed it here. `docs/ci-success.png` is historical Part 1 evidence and must not be presented as a Part 2 test run.
+<img width="1919" height="1080" alt="part2-ci-success" src="https://github.com/user-attachments/assets/49e2e70f-e9ac-42a8-a796-42f9618f4269" />
 
-### Meaningful commits
-
-The inspected remote `main` contained 16 total Part 1 commits and no API source. This does not establish 20 meaningful Part 2 commits. Commit genuine ongoing implementation, review and verification work using your own account; do not manufacture history or count trivial edits.
 
 ## YouTube demonstration
 
-**Part 2 video: pending.** Record your own voice, show the running SQL Server-backed API and test/CI evidence, upload an unlisted video, and replace this paragraph with the link. The original Part 1 README linked https://www.youtube.com/shorts/ibWM3m3GF6c; it is not verified as Part 2 evidence.
+part 1 https://www.youtube.com/shorts/ibWM3m3GF6c; 
+part 2 
 
-Use [the demo guide](docs/PART2-DEMO.md) and [manual test pack](docs/PART2-MANUAL-TESTS.md).
 
 ## AI usage disclosure
 
 OpenAI Codex assisted with requirements analysis, implementation, test creation and documentation. The student must review and understand these changes, validate the system, explain design choices in their own words, and follow the institution's AI disclosure and academic integrity requirements. This work is not represented as entirely manually authored.
 
-## Verification and remaining evidence
-
-Release build: **0 warnings, 0 errors**. Local tests: **58 passed, 0 failed, 0 skipped**. See [test evidence](docs/PART2-TEST-RESULTS.md) and [the Part 2 audit](docs/PART2-AUDIT.md). Local automated results are separate from SQL Server, GitHub green-build and video evidence. No claim of guaranteed marks is made.
